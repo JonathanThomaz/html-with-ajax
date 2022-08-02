@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <!-- import cdn ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- script to direct load another file -->
+    <script>
+        $(function () {
+            $("#includedContent").load("b.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- this div has the id that we use on the function -->
+    <div id="includedContent"></div>
+</body>
+
+</html>
