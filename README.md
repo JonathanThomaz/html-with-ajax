@@ -6,6 +6,6 @@ To solve problem to use other files html to content bits of html code like a com
 
 # To run
 
-I recomendend (Node.js)[https://nodejs.org/en/]
+I recomendend [Node.js](https://nodejs.org/en/)
 
 Use `npx http-server -c-1` or install `npm install -g http-server` and run `http-server -c-1`
